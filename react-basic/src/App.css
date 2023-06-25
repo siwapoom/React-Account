@@ -20,3 +20,24 @@ body{
   width:350 px;
 
 }
+
+.horizontal-menu{
+  list-style-type: none;
+  margin:0;
+  padding: 0;
+  overflow: hidden;
+  background: #333;
+  text-align: center;
+}
+
+.horizontal-menu li{
+display: inline-block;
+}
+
+/* link horizon*/
+.horizontal-menu a{   
+  color:#cecece;
+  text-decoration: none;
+  padding: 16px;
+  display: block;
+}
