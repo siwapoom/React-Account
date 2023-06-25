@@ -1,0 +1,31 @@
+.report-container{
+    display:flex;
+    justify-content:space-between;
+    background-color:#fff;
+    padding: 15px;
+    margin: 15 px 0;
+}
+
+.report-container>div{
+    flex:1;
+    text-align: center;
+}
+
+.report-container>div:first-of-type{
+   border-right: 5px solid #dedede;
+
+}
+.report{
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin: 5px 0;
+}
+
+.report.gain{
+    color: #2ecc71;
+    font-size: 20px;
+}
+
+.report.loss{
+    color: red;
+}
